@@ -50,7 +50,7 @@ os.system('cls')
 
 print(
     json.dumps(
-        get_one_owner(1),
+        get_one_owner(3),
         ensure_ascii=False,
         indent=2
     )

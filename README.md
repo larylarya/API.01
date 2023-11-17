@@ -3,4 +3,9 @@
 
 ## Requisitos
 
--Python 3.10^
+- Python 3.10^
+- Flask
+
+## Opcionais
+
+- [DB Browser (SQLite)](https://sqlitebrowser.org/)
