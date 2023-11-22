@@ -40,7 +40,7 @@ CREATE TABLE item (
     item_description TEXT,
     item_location TEXT,
     item_owner INTEGER,
-	item_status TEXT 'on',
+	item_status TEXT DEFAULT 'on',
     item_field1 TEXT,
     item_field2 TEXT,
 	FOREIGN KEY (item_owner) REFERENCES owner (owner_id)
@@ -54,4 +54,4 @@ VALUES
      ('13', '2020-05-24 10:16:17', 'Biscoito', 'Biscoito de morango', 'Irajá', '3', 'on'),
      ('14', '2023-06-29 10:18:14', 'Biscoito', 'Biscoito de chocolate', 'Campo Grande', '4', 'on'),
      ('15', '2024-07-26 10:19:13', 'Biscoito', 'Biscoito de abacaxi', 'Gramacho', '5', 'on'), 
-     ('66', '2025-08-24 10:14:12', 'Biscoito', 'Biscoito de framboesa', 'Cosmos', '6', 'on');
+     ('16', '2025-08-24 10:14:12', 'Biscoito', 'Biscoito de framboesa', 'Cosmos', '6', 'on');
