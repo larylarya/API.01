@@ -270,8 +270,6 @@ def edit(id):
     except Exception as e:  # Outros erros.
         return {"error": f"Erro inesperado: {str(e)}"}, 500
 
-    return {"olá": "mundo"}
-
 
 # Roda aplicativo Flask.
 if __name__ == "__main__":
